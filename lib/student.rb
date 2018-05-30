@@ -14,7 +14,7 @@ class Student
       binding.pry 
     end
     #students_array.first[:name]
-    binding.pry
+    #binding.pry
   end
 
   def add_student_attributes(attributes_hash)
