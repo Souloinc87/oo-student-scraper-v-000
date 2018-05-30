@@ -13,8 +13,6 @@ class Student
     students_array.each do |student|
       Student.new(student)
     end
-    #students_array.first[:name]
-    #binding.pry
   end
 
   def add_student_attributes(attributes_hash)
