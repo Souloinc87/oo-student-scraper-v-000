@@ -10,7 +10,9 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-
+    students_array.each do |student| 
+      binding.pry 
+    end 
     #students_array.first[:name]
     binding.pry
   end
